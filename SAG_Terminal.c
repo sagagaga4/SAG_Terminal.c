@@ -41,6 +41,7 @@ int binary(char *a, char *b)
 			temp[index++] =  (s >> j) & 1;
 		}	
 	}
+	
 	for(size_t i = 0; i < len_b ;i++)
 	{
 		unsigned char k = (unsigned char)b[i];	
@@ -74,6 +75,7 @@ int binary(char *a, char *b)
 	printf("\n");
 	return 0;
 }
+
 int xor()
 {
 	char str[256];
