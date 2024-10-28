@@ -153,7 +153,6 @@ int cal()
 		}
 		printf("\n");
 	}
-		
 	return 0;
 }
 
