@@ -33,7 +33,7 @@ int binary(char *a, char *b)
 
 	int index = 0,index2 = 0;
 
-	for(size_t i = 0; i < len_a ;i++)
+	for(size_t i = 0; i < len_a ; i++)
 	{
 		unsigned char s = (unsigned char)a[i];
 		for(int j = 0; j < BINARY_LEN; j++ )
